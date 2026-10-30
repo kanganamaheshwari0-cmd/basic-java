@@ -34,20 +34,33 @@
 
 //Variables
 
-public class Main {
+// public class Main {
+//     public static void main(String[] args) {
+
+//         int age = 21;
+//         String name = "Kangana";
+//         double marks = 85.5;
+//         char grade = 'A';
+//         boolean isPass = true;
+
+//         System.out.println(age);
+//         System.out.println(name);
+//         System.out.println(marks);
+//         System.out.println(grade);
+//         System.out.println(isPass);
+//     }
+// }
+
+// conditional statement if-else
+
+    public class Main {
     public static void main(String[] args) {
 
-        int age = 21;
-        String name = "Kangana";
-        double marks = 85.5;
-        char grade = 'A';
-        boolean isPass = true;
+        int age = 20;
 
-        System.out.println(age);
-        System.out.println(name);
-        System.out.println(marks);
-        System.out.println(grade);
-        System.out.println(isPass);
+        if (age >= 18) {
+            System.out.println("You are eligible");
+        }
     }
 }
 
