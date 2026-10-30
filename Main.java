@@ -103,16 +103,28 @@
 
 //Nested if
 
+// public class Main {
+//     public static void main(String[] args) {
+
+//         int age = 20;
+//         boolean hasID = true;
+
+//         if (age >= 18) {
+//             if (hasID) {
+//                 System.out.println("Entry Allowed");
+//             }
+//         }
+//     }
+// }
+
+//Loops in Java
+//for loop
+
 public class Main {
     public static void main(String[] args) {
 
-        int age = 20;
-        boolean hasID = true;
-
-        if (age >= 18) {
-            if (hasID) {
-                System.out.println("Entry Allowed");
-            }
+        for (int i = 1; i <= 5; i++) {
+            System.out.println(i);
         }
     }
 }
