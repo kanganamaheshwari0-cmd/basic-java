@@ -81,26 +81,41 @@
 
 //else-if statement
 
+// public class Main {
+//     public static void main(String[] args) {
+
+//         int marks = 75;
+
+//         if (marks >= 90) {
+//             System.out.println("Grade A");
+//         }
+//         else if (marks >= 70) {
+//             System.out.println("Grade B");
+//         }
+//         else if (marks >= 50) {
+//             System.out.println("Grade C");
+//         }
+//         else {
+//             System.out.println("Fail");
+//         }
+//     }
+// }
+
+//Nested if
+
 public class Main {
     public static void main(String[] args) {
 
-        int marks = 75;
+        int age = 20;
+        boolean hasID = true;
 
-        if (marks >= 90) {
-            System.out.println("Grade A");
-        }
-        else if (marks >= 70) {
-            System.out.println("Grade B");
-        }
-        else if (marks >= 50) {
-            System.out.println("Grade C");
-        }
-        else {
-            System.out.println("Fail");
+        if (age >= 18) {
+            if (hasID) {
+                System.out.println("Entry Allowed");
+            }
         }
     }
 }
-
 
 
 
