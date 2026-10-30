@@ -160,16 +160,32 @@
 
 //for each loop
 
+// public class Main {
+//     public static void main(String[] args) {
+
+//         int numbers[] = {10, 20, 30, 40};
+
+//         for (int num : numbers) {
+//             System.out.println(num);
+//         }
+//     }
+// }
+
+//functions
+//Without parameter
+
 public class Main {
+
+    static void greet() {
+        System.out.println("Hello Java");
+    }
+
     public static void main(String[] args) {
-
-        int numbers[] = {10, 20, 30, 40};
-
-        for (int num : numbers) {
-            System.out.println(num);
-        }
+        greet();
     }
 }
+
+
 
 
 
