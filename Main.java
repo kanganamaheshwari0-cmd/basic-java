@@ -174,14 +174,27 @@
 //functions
 //Without parameter
 
+// public class Main {
+
+//     static void greet() {
+//         System.out.println("Hello Java");
+//     }
+
+//     public static void main(String[] args) {
+//         greet();
+//     }
+// }
+
+//Method with parameters
+
 public class Main {
 
-    static void greet() {
-        System.out.println("Hello Java");
+    static void add(int a, int b) {
+        System.out.println(a + b);
     }
 
     public static void main(String[] args) {
-        greet();
+        add(10, 20);
     }
 }
 
