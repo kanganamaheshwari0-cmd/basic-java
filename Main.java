@@ -53,17 +53,31 @@
 
 // conditional statement if-else
 
-    public class Main {
+//     public class Main {
+//     public static void main(String[] args) {
+
+//         int age = 20;
+
+//         if (age >= 18) {
+//             System.out.println("You are eligible");
+//         }
+//     }
+// }
+
+//if-else statement
+
+public class Main {
     public static void main(String[] args) {
 
-        int age = 20;
+        int number = 10;
 
-        if (age >= 18) {
-            System.out.println("You are eligible");
+        if (number % 2 == 0) {
+            System.out.println("Even Number");
+        } else {
+            System.out.println("Odd Number");
         }
     }
 }
-
 
 
 
