@@ -66,15 +66,37 @@
 
 //if-else statement
 
+// public class Main {
+//     public static void main(String[] args) {
+
+//         int number = 10;
+
+//         if (number % 2 == 0) {
+//             System.out.println("Even Number");
+//         } else {
+//             System.out.println("Odd Number");
+//         }
+//     }
+// }
+
+//else-if statement
+
 public class Main {
     public static void main(String[] args) {
 
-        int number = 10;
+        int marks = 75;
 
-        if (number % 2 == 0) {
-            System.out.println("Even Number");
-        } else {
-            System.out.println("Odd Number");
+        if (marks >= 90) {
+            System.out.println("Grade A");
+        }
+        else if (marks >= 70) {
+            System.out.println("Grade B");
+        }
+        else if (marks >= 50) {
+            System.out.println("Grade C");
+        }
+        else {
+            System.out.println("Fail");
         }
     }
 }
