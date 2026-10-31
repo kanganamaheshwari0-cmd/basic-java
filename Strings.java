@@ -230,19 +230,33 @@
 
 //Strings
 
-import java.util.Scanner;
+// import java.util.Scanner;
+
+// public class Strings {
+//     public static void main(String args[]) {
+//         // String name = "kangana";
+//         // String fullName = "Kangana maheshwari";
+//         // String sentence = "My name is kangana mahehwari";
+//         Scanner sc = new Scanner(System.in);
+//         String name = sc.nextLine();
+//         System.out.println("your name is : "+ name);
+
+//    }
+// }
+
+//concatenation
 
 public class Strings {
     public static void main(String args[]) {
-        // String name = "kangana";
-        // String fullName = "Kangana maheshwari";
-        // String sentence = "My name is kangana mahehwari";
-        Scanner sc = new Scanner(System.in);
-        String name = sc.nextLine();
-        System.out.println("your name is : "+ name);
+        String firstName = "kangana";
+        String lastName = "maheshwari";
+        String fullName = firstName + lastName;
+        System.out.println(fullName);
 
    }
 }
+
+
 
 
 
