@@ -214,19 +214,37 @@
 
 //Array with loop
 
-public class Arrays {
+// public class Arrays {
+//     public static void main(String args[]) {
+//         int[] marks = new int[3];
+//         marks[0] = 97;
+//         marks[1] = 98;
+//         marks[2] = 95;
+
+//         for(int i=0; i<3; i++) {
+//             System.out.println(marks[i]);
+//         }
+
+//     }
+// }
+
+//Strings
+
+import java.util.Scanner;
+
+public class Strings {
     public static void main(String args[]) {
-        int[] marks = new int[3];
-        marks[0] = 97;
-        marks[1] = 98;
-        marks[2] = 95;
+        // String name = "kangana";
+        // String fullName = "Kangana maheshwari";
+        // String sentence = "My name is kangana mahehwari";
+        Scanner sc = new Scanner(System.in);
+        String name = sc.nextLine();
+        System.out.println("your name is : "+ name);
 
-        for(int i=0; i<3; i++) {
-            System.out.println(marks[i]);
-        }
-
-    }
+   }
 }
+
+
 
 
 
