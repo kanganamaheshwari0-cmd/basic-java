@@ -244,13 +244,13 @@
 //    }
 // }
 
-//concatenation
+//concatenation 
 
 public class Strings {
     public static void main(String args[]) {
         String firstName = "kangana";
         String lastName = "maheshwari";
-        String fullName = firstName + lastName;
+        String fullName = firstName + " " + lastName;
         System.out.println(fullName);
 
    }
