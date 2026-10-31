@@ -258,17 +258,42 @@
 
 //charAt
 
+// public class Strings {
+//     public static void main(String args[]) {
+//         String firstName = "kangana";
+//         String lastName = "maheshwari";
+//         String fullName = firstName + "@" + lastName;
+//         System.out.println(fullName.length());
+
+//         for(int i=0; i<fullName.length(); i++) {
+//             System.out.println(fullName.charAt(i));
+//         }
+
+//    }
+// }
+
+//compare strings
+
 public class Strings {
     public static void main(String args[]) {
-        String firstName = "kangana";
-        String lastName = "maheshwari";
-        String fullName = firstName + "@" + lastName;
-        System.out.println(fullName.length());
+        String name1 = "kangana";
+        String name2 = "kanganaa";
 
-        for(int i=0; i<fullName.length(); i++) {
-            System.out.println(fullName.charAt(i));
+        if(name1.compareTo(name2) == 0) {
+            System.out.println("string are equal");
+
+        } else {
+            System.out.println("String are not equal");
         }
 
+        // if(name1 == name2) {
+        //     System.out.println("string are equal");
+
+        // } else {
+        //     System.out.println("String are not equal");
+        // }
+
+       
    }
 }
 
