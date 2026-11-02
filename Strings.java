@@ -299,6 +299,20 @@
 
 //sub strings
 
+// public class Strings {
+//     public static void main(String args[]) {
+//         String sentence = "kanganamaheshwari";
+//         String name = sentence.substring(0,4);
+//         System.out.println(name);
+//     }
+// }
+
+//operators
+
+//preincrement
+
+// sub strings
+
 public class Strings {
     public static void main(String args[]) {
         String sentence = "kanganamaheshwari";
@@ -306,6 +320,10 @@ public class Strings {
         System.out.println(name);
     }
 }
+
+
+
+
 
 
 
