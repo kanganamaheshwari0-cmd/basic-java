@@ -370,20 +370,32 @@
 
 //print the minimum element in the array
 
-public class SumAndMax {
+// public class SumAndMax {
+//     public static void main(String[] args) {
+
+//         int[] arr = {-6, 8, 15, -2, -23, 14, 25};
+
+//         int min = arr[0];
+
+//         for (int i = 0; i < arr.length; i++) {
+//             if (arr[i] < min) {
+//                 min = arr[i];
+//             }
+//         }
+
+//         System.out.println(min);
+//     }
+// }
+
+//array of other data type
+
+public class ArrayOfOtherDataType {
     public static void main(String[] args) {
 
-        int[] arr = {-6, 8, 15, -2, -23, 14, 25};
-
-        int min = arr[0];
-
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] < min) {
-                min = arr[i];
-            }
+        String[] arr = {"kangana", "bhavika", "kajal", "nidhi"};
+        for(int i=0; i<arr.length; i++) {
+            System.out.println(arr[i]+"");
         }
-
-        System.out.println(min);
     }
 }
 
