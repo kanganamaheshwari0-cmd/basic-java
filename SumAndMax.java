@@ -325,15 +325,32 @@
 // DSA QUESTION SOLVE
 
 
-public class Array {
+// public class Array {
     
-    public static void main(String[] args) {
-        int[] x = {2,6,9,0,5};
+//     public static void main(String[] args) {
+//         int[] x = {2,6,9,0,5};
 
-        System.out.println(x[2]);
-    }
+//         System.out.println(x[2]);
+//     }
     
+// }
+
+//Print sum of elements of the array
+
+public class SumAndMax {
+     public static void main(String[] args) {
+        int[]  arr= {-6, 8, 15, -2, -23, 14, 25};
+        int sum = 0;
+
+        for(int i=0; i< arr.length; i++){
+            sum += arr[i];
+        }
+         System.out.println(sum);
+
 }
+
+}
+
 
 
 
