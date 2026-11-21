@@ -6,11 +6,12 @@ public class ContinuousSubarraySum {
         int[] nums = {23, 2, 4, 6, 7};
         int k = 6;
 
-        boolean found = false;
+        boolean found = false;//abhi tak duplicate nhi mila
 
         for (int i = 0; i < nums.length; i++) {
 
-            int sum = 0;
+            int sum = 0;//starting value 0 lii hai
+            
 
             for (int j = i; j < nums.length; j++) {
 
