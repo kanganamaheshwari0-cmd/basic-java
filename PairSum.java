@@ -12,7 +12,6 @@ public class PairSum {
         while (left < right) {
 
             int sum = arr[left] + arr[right];
-
             if (sum == target) {
                 System.out.println("Pair: " + arr[left] + ", " + arr[right]);
                 break;
