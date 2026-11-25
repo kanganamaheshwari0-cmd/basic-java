@@ -21,6 +21,7 @@ public class PivotIndex {
                 System.out.println("Pivot Index: " + i);
                 return;
             }
+            
 
             leftSum += nums[i];
         }
