@@ -1,5 +1,6 @@
 public class Merge2SortArrays {
      public static void main(String[] args) {
+      
         int[] A = {1,2,3,0,0,0};
         int[] B = {2,5,6};
 
