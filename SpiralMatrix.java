@@ -41,6 +41,7 @@ public class SpiralMatrix {
                     System.out.print(matrix[i][left] + " ");
                 }
                 left++;
+                
             }
         }
     }
