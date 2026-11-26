@@ -10,7 +10,7 @@ public class SubArraySumEqualsK {
 
         for (int i = 0; i < n; i++) {
 
-            int sum = 0;
+            int sum = 0;//Har naye starting index ke liye sum dobara 0 hota hai.
 
             for (int j = i; j < n; j++) {
 
